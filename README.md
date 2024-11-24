@@ -1,7 +1,7 @@
 # Reverse Geocoding 
 
 This program coding project will read in a CSV containing address and reverse geocode to produce latitudes and longitudes.
-It can multi-utilize various geocoding services which are listed beloew
+It can utilize various geocoding services which are listed below
 
 ### List of Geocode Services
 *  Open Cage
@@ -19,8 +19,25 @@ Please run the "Main.py" to initiate the program.
 1.  Select the Geocoding Service
 2.  Select the CSV file with an Explorer Picker
 3.  Select the Field containing the complete address 
-   * The program will generate a "Geocode_#.csv" export file
-   * Latitude and Longitude fields will be autofilled, if a location exist
-   * Score field will be populated depending on the service availabe.
 
+#### Notes:
+* The program will generate a "Geocode_#.csv" export file
+* Latitude and Longitude fields will be autofill, if a location exist
+* Score field will be populated depending on the service available.
+
+
+## Geocode Services and Score Methods
+### Open Cage
+OpenCage is a free and open-source geocoding API that provides geocoding and reverse geocoding 
+Map, to provide accurate and reliable results.
+* Score Method; 0-10
+
+### Google Map V3
+Google Maps Geocoding API V3 is a powerful tool for converting addresses into geographic coordinates (latitude and longitude) and vice versa. 
+It's a key component of many web and mobile applications that rely on location-based services.
+* Score Method; 0-1
+
+
+## Future Plans and Modifications
+* Add new services
 
