@@ -9,6 +9,10 @@ It can utilize various geocoding services which are listed below
 
 ## Requirements
 For each geocode service, its API key is required in a separate python file. Please update manually and enforce API key read.
+Within the API_KEYS directory, create the following:
+* Google_Map_API_Key.py  (GMAP_API_KEY = "")
+* Open_Cage_API_KEY.py (OPEN_CAGE_API_KEY = "")
+
 
 ## Methods
 Under the Geocode_Libraries, there are two python files: "Geocode_Class.py" and "Geocode_System_Functions"
