@@ -1,7 +1,7 @@
 import os, sys
 import pandas as pd
 import time
-from geopy.geocoders import Nominatim, OpenCage
+from geopy.geocoders import OpenCage
 import googlemaps
 
 
@@ -74,7 +74,7 @@ class DataProcessor:
     def run_opencage_geopy_iterator(self, address_field_name: str):
         ## Runs through a for loop
 
-        from Open_Cage_API_KEY import OPEN_CAGE_API_KEY
+        from API_KEYS.Open_Cage_API_KEY import OPEN_CAGE_API_KEY
 
         if not OPEN_CAGE_API_KEY:
             exit_program("NO - Open Cage API Key Found")
@@ -109,7 +109,7 @@ class DataProcessor:
         APPROXIMATE: Indicates an approximate location with a lower level of precision.
         """
 
-        from Google_Map_API_Key import GMAP_API_KEY
+        from API_KEYS.Google_Map_API_Key import GMAP_API_KEY
 
         if not GMAP_API_KEY:
             exit_program("NO - Google Maps API Key Found")

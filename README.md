@@ -3,7 +3,7 @@
 This program coding project will read in a CSV containing address and reverse geocode to produce latitudes and longitudes.
 It can utilize various geocoding services which are listed below
 
-### List of Geocode Services
+### List of Utilized Geocode Services
 *  Open Cage
 *  Google Maps V3
 
