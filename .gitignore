@@ -1,3 +1,4 @@
 *.csv
+*.zip
 API_KEYS/Google_Map_API_Key.py
 API_KEYS/Open_Cage_API_KEY.py
