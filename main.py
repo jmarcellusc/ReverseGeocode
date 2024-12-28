@@ -11,6 +11,27 @@ Optional Arguments: <parameter2>
 Description:        Will preform various reverse geocoding methods.
 """
 
+
+
+"""
+AUTHOR:   Juan Marcel Campos
+EMAIL:    marcelluscampes@gmail.com
+DATE:     12/15/2024
+VERSION:  1.1.0
+GITHUB:   https://github.com/jmarcellusc/ReverseGeocode
+GIT_IGNORE: *.pdf
+CORE LIBRARIES: "tkinter", "googlemaps", "OpenCage"
+CORE IMPORTS: 
+    - from reportlab.lib.pagesizes import letter
+    - from reportlab.pdfgen import canvas
+    - import PyPDF2
+MAIN GENERATOR: Geocode_Class.py
+PURPOSE: Will reverse geocode through 2 methods; google Maps and Open Cage. Project is expandable for other methods
+PARAMETERS: API Keys required
+PARAMETERS: 
+"""
+
+
 import os, sys
 import importlib
 import re
